@@ -13,6 +13,7 @@ Bundle 'scrooloose/syntastic'
 Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mattn/emmet-vim'
+Bundle 'bling/vim-airline'
 
 " Prettify
 set t_Co=256
@@ -53,6 +54,7 @@ set nostartofline
 " Indentation
 set shiftwidth=2
 set softtabstop=2
+set tabstop=4
 set expandtab
 set autoindent
 

@@ -1,6 +1,4 @@
 .DS_Store
 /bundle
-/backups
-/swaps
-/undo
 .netrwhist
+tags
