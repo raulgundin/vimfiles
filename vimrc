@@ -14,6 +14,7 @@ Bundle 'tpope/vim-fugitive'
 Bundle 'kien/ctrlp.vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'bling/vim-airline'
+Bundle 'elzr/vim-json'
 
 " Prettify
 set t_Co=256
@@ -82,3 +83,6 @@ let g:NERDTreeMouseMode = 2
 let g:NERDTreeWinSize = 40
 let g:NERDTreeChDirMode = 2
 nnoremap <f2> :NERDTreeToggle<cr>
+
+" JSON
+let g:vim_json_syntax_conceal = 0 " Don't hide my quotes!
