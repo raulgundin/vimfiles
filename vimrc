@@ -86,3 +86,7 @@ nnoremap <f2> :NERDTreeToggle<cr>
 
 " JSON
 let g:vim_json_syntax_conceal = 0 " Don't hide my quotes!
+
+" Airline
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#fnamemod = ':t'
